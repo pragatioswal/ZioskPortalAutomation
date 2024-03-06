@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="668543" started-at="2024-03-05T16:00:36 PST" finished-at="2024-03-05T16:11:44 PST">
+    <groups>
+    </groups>
+    <test name="Ziosk Support Portal Automation Test" duration-ms="668543" started-at="2024-03-05T16:00:36 PST" finished-at="2024-03-05T16:11:44 PST">
+      <class name="ztp.qa.testcases.WatcherTest">
+        <test-method status="PASS" signature="starttest()[pri:0, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="starttest" is-config="true" duration-ms="19553" started-at="2024-03-05T16:00:36 PST" finished-at="2024-03-05T16:00:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+        <test-method status="PASS" signature="ValidateStartToStopService()[pri:1, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateStartToStopService" duration-ms="5483" started-at="2024-03-05T16:00:55 PST" description="Checks Start to Stop works for service" finished-at="2024-03-05T16:01:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStartToStopService -->
+        <test-method status="PASS" signature="ValidateRestartService()[pri:2, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateRestartService" duration-ms="5459" started-at="2024-03-05T16:01:01 PST" description="Checks Restart functionality works for service" finished-at="2024-03-05T16:01:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRestartService -->
+        <test-method status="PASS" signature="ValidateStopToStartService()[pri:3, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateStopToStartService" duration-ms="5365" started-at="2024-03-05T16:01:06 PST" description="Checks Stop to start works for service" finished-at="2024-03-05T16:01:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStopToStartService -->
+        <test-method status="PASS" signature="ValidateSortByDisplayName()[pri:4, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSortByDisplayName" duration-ms="61484" started-at="2024-03-05T16:01:12 PST" description="Sort by Display Name on Service Tab" finished-at="2024-03-05T16:02:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSortByDisplayName -->
+        <test-method status="PASS" signature="ValidateTotalNoOfServices()[pri:5, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateTotalNoOfServices" duration-ms="29134" started-at="2024-03-05T16:02:13 PST" description="Checks Total number of dislayed services" finished-at="2024-03-05T16:02:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTotalNoOfServices -->
+        <test-method status="PASS" signature="ValidateNextPage()[pri:6, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateNextPage" duration-ms="10657" started-at="2024-03-05T16:02:42 PST" description="Next Page Functionality" finished-at="2024-03-05T16:02:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNextPage -->
+        <test-method status="PASS" signature="ValidatePreviousPage()[pri:7, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidatePreviousPage" duration-ms="8457" started-at="2024-03-05T16:02:53 PST" description="Previous Page Functionality" finished-at="2024-03-05T16:03:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePreviousPage -->
+        <test-method status="PASS" signature="ValidateRefreshServices()[pri:8, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateRefreshServices" duration-ms="57389" started-at="2024-03-05T16:03:01 PST" description="Refresh Services Functionality" finished-at="2024-03-05T16:03:59 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRefreshServices -->
+        <test-method status="PASS" signature="ValidateSearchZioskServices()[pri:9, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSearchZioskServices" duration-ms="11889" started-at="2024-03-05T16:03:59 PST" description="4 Ziosk Service loaded on Watcher Client page" finished-at="2024-03-05T16:04:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchZioskServices -->
+        <test-method status="PASS" signature="ValidateZOOBServiceStopStartDisabled()[pri:10, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateZOOBServiceStopStartDisabled" duration-ms="7093" started-at="2024-03-05T16:04:11 PST" description="Stop and start button is disabled for Ziosk Online Ordering Bridge Service" finished-at="2024-03-05T16:04:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateZOOBServiceStopStartDisabled -->
+        <test-method status="PASS" signature="ValidateItemsPerPageFunctionality()[pri:11, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateItemsPerPageFunctionality" duration-ms="24412" started-at="2024-03-05T16:04:18 PST" description="Items per Page displayed: 5,10,25 and 100" finished-at="2024-03-05T16:04:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateItemsPerPageFunctionality -->
+        <test-method status="PASS" signature="ValidateSortByServiceName()[pri:12, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSortByServiceName" duration-ms="78624" started-at="2024-03-05T16:04:42 PST" description="Sort by Service Name on Services Tab" finished-at="2024-03-05T16:06:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSortByServiceName -->
+        <test-method status="PASS" signature="ValidateSortByStatus()[pri:13, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSortByStatus" duration-ms="67184" started-at="2024-03-05T16:06:01 PST" description="Sort by Status on services tab" finished-at="2024-03-05T16:07:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSortByStatus -->
+        <test-method status="PASS" signature="ValidateSortByProcessName()[pri:14, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSortByProcessName" duration-ms="35155" started-at="2024-03-05T16:07:08 PST" description="Sort by Process name on Process tab" finished-at="2024-03-05T16:07:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSortByProcessName -->
+        <test-method status="PASS" signature="ValidateRefreshProcesses()[pri:15, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateRefreshProcesses" duration-ms="15458" started-at="2024-03-05T16:07:43 PST" description="Refresh Processes Functionality" finished-at="2024-03-05T16:07:59 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRefreshProcesses -->
+        <test-method status="PASS" signature="ValidateSearchZioskProcesses()[pri:16, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSearchZioskProcesses" duration-ms="11898" started-at="2024-03-05T16:07:59 PST" description="4 Ziosk Processes on Watcher Client page" finished-at="2024-03-05T16:08:10 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchZioskProcesses -->
+        <test-method status="PASS" signature="ValidateSwitchingBetTabs()[pri:17, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSwitchingBetTabs" duration-ms="8527" started-at="2024-03-05T16:08:10 PST" description="Switching between Services, Processes and Files tabs" finished-at="2024-03-05T16:08:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSwitchingBetTabs -->
+        <test-method status="PASS" signature="ValidateFileSize()[pri:18, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateFileSize" duration-ms="16043" started-at="2024-03-05T16:08:19 PST" description="Color Coding of files a per size in Files tab" finished-at="2024-03-05T16:08:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFileSize -->
+        <test-method status="PASS" signature="ValidateDownloadFile()[pri:19, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateDownloadFile" duration-ms="40292" started-at="2024-03-05T16:08:35 PST" description="Download feature for Files tab" finished-at="2024-03-05T16:09:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDownloadFile -->
+        <test-method status="PASS" signature="ValidateExpandAll()[pri:20, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateExpandAll" duration-ms="36059" started-at="2024-03-05T16:09:15 PST" description="Expand All feature for Files tab" finished-at="2024-03-05T16:09:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateExpandAll -->
+        <test-method status="PASS" signature="ValidateSwitchBetPageswithTool()[pri:21, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSwitchBetPageswithTool" duration-ms="17852" started-at="2024-03-05T16:09:51 PST" description="Switch between pages using Tool dropdown" finished-at="2024-03-05T16:10:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSwitchBetPageswithTool -->
+        <test-method status="PASS" signature="ValidateSwitchStore()[pri:22, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateSwitchStore" duration-ms="3923" started-at="2024-03-05T16:10:09 PST" description="Switching between stores from top page dropdown" finished-at="2024-03-05T16:10:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSwitchStore -->
+        <test-method status="PASS" signature="ValidateBackwardNavigate()[pri:23, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="ValidateBackwardNavigate" duration-ms="2331" started-at="2024-03-05T16:10:13 PST" description="Backward Navigate from Watcher client" finished-at="2024-03-05T16:10:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBackwardNavigate -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:ztp.qa.testcases.WatcherTest@6221a451]" name="logout" is-config="true" duration-ms="5089" started-at="2024-03-05T16:10:15 PST" finished-at="2024-03-05T16:10:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ztp.qa.testcases.WatcherTest -->
+      <class name="ztp.qa.testcases.QRCodeTest">
+        <test-method status="PASS" signature="starttest()[pri:0, instance:ztp.qa.testcases.QRCodeTest@52719fb6]" name="starttest" is-config="true" duration-ms="15647" started-at="2024-03-05T16:10:21 PST" finished-at="2024-03-05T16:10:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+        <test-method status="PASS" signature="ValidateDownloadQRImage()[pri:1, instance:ztp.qa.testcases.QRCodeTest@52719fb6]" name="ValidateDownloadQRImage" duration-ms="10168" started-at="2024-03-05T16:10:36 PST" description="QR Code Download" finished-at="2024-03-05T16:10:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDownloadQRImage -->
+        <test-method status="PASS" signature="ValidatePrintQRImage()[pri:2, instance:ztp.qa.testcases.QRCodeTest@52719fb6]" name="ValidatePrintQRImage" duration-ms="1338" started-at="2024-03-05T16:10:46 PST" description="QR Code Print" finished-at="2024-03-05T16:10:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePrintQRImage -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:ztp.qa.testcases.QRCodeTest@52719fb6]" name="logout" is-config="true" duration-ms="4665" started-at="2024-03-05T16:10:48 PST" finished-at="2024-03-05T16:10:52 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ztp.qa.testcases.QRCodeTest -->
+      <class name="ztp.qa.testcases.POSTest">
+        <test-method status="PASS" signature="starttest()[pri:0, instance:ztp.qa.testcases.POSTest@3012646b]" name="starttest" is-config="true" duration-ms="16308" started-at="2024-03-05T16:10:52 PST" finished-at="2024-03-05T16:11:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+        <test-method status="PASS" signature="ValidatePOSInformation()[pri:1, instance:ztp.qa.testcases.POSTest@3012646b]" name="ValidatePOSInformation" duration-ms="2405" started-at="2024-03-05T16:11:09 PST" description="Checks POS information" finished-at="2024-03-05T16:11:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePOSInformation -->
+        <test-method status="PASS" signature="ValidateAgentVersion()[pri:2, instance:ztp.qa.testcases.POSTest@3012646b]" name="ValidateAgentVersion" duration-ms="2433" started-at="2024-03-05T16:11:11 PST" description="Checks Agent Version" finished-at="2024-03-05T16:11:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAgentVersion -->
+        <test-method status="PASS" signature="ValidatePluginVersion()[pri:3, instance:ztp.qa.testcases.POSTest@3012646b]" name="ValidatePluginVersion" duration-ms="2400" started-at="2024-03-05T16:11:14 PST" description="Checks Plugin Version" finished-at="2024-03-05T16:11:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePluginVersion -->
+        <test-method status="PASS" signature="ValidatePosFeatures()[pri:4, instance:ztp.qa.testcases.POSTest@3012646b]" name="ValidatePosFeatures" duration-ms="5168" started-at="2024-03-05T16:11:16 PST" description="Checks Plugin Features" finished-at="2024-03-05T16:11:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePosFeatures -->
+        <test-method status="PASS" signature="ValidateAgentHealth()[pri:5, instance:ztp.qa.testcases.POSTest@3012646b]" name="ValidateAgentHealth" duration-ms="13900" started-at="2024-03-05T16:11:21 PST" description="Checks Agent Health parameters" finished-at="2024-03-05T16:11:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAgentHealth -->
+        <test-method status="PASS" signature="ValidateGetRVCList()[pri:6, instance:ztp.qa.testcases.POSTest@3012646b]" name="ValidateGetRVCList" duration-ms="2351" started-at="2024-03-05T16:11:35 PST" description="Checks GetRVCList parameters" finished-at="2024-03-05T16:11:37 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateGetRVCList -->
+        <test-method status="PASS" signature="ValidateGetMenuItems()[pri:7, instance:ztp.qa.testcases.POSTest@3012646b]" name="ValidateGetMenuItems" duration-ms="2333" started-at="2024-03-05T16:11:37 PST" description="Checks GetMenuItems paramters" finished-at="2024-03-05T16:11:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateGetMenuItems -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:ztp.qa.testcases.POSTest@3012646b]" name="logout" is-config="true" duration-ms="4537" started-at="2024-03-05T16:11:40 PST" finished-at="2024-03-05T16:11:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ztp.qa.testcases.POSTest -->
+    </test> <!-- Ziosk Support Portal Automation Test -->
+  </suite> <!-- Suite -->
+</testng-results>

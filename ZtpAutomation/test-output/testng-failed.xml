@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ztp.qa.util.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Ziosk Support Portal Automation Test(failed)">
+    <classes>
+      <class name="ztp.qa.testcases.POSTest">
+        <methods>
+          <include name="ValidateGetRVCList"/>
+          <include name="starttest"/>
+        </methods>
+      </class> <!-- ztp.qa.testcases.POSTest -->
+    </classes>
+  </test> <!-- Ziosk Support Portal Automation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

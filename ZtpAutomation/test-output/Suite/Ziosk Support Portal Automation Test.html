@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  Ziosk Support Portal Automation Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Ziosk Support Portal Automation Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 05 16:00:36 PST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>668 seconds (668543 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ztp.qa.testcases.POSTest.ValidateAgentHealth()'><b>ValidateAgentHealth</b><br>Test class: ztp.qa.testcases.POSTest<br>Test method: Checks Agent Health parameters</td>
+<td></td>
+<td>13</td>
+<td>ztp.qa.testcases.POSTest@3012646b</td></tr>
+<tr>
+<td title='ztp.qa.testcases.POSTest.ValidateAgentVersion()'><b>ValidateAgentVersion</b><br>Test class: ztp.qa.testcases.POSTest<br>Test method: Checks Agent Version</td>
+<td></td>
+<td>2</td>
+<td>ztp.qa.testcases.POSTest@3012646b</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateBackwardNavigate()'><b>ValidateBackwardNavigate</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Backward Navigate from Watcher client</td>
+<td></td>
+<td>2</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateDownloadFile()'><b>ValidateDownloadFile</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Download feature for Files tab</td>
+<td></td>
+<td>40</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.QRCodeTest.ValidateDownloadQRImage()'><b>ValidateDownloadQRImage</b><br>Test class: ztp.qa.testcases.QRCodeTest<br>Test method: QR Code Download</td>
+<td></td>
+<td>10</td>
+<td>ztp.qa.testcases.QRCodeTest@52719fb6</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateExpandAll()'><b>ValidateExpandAll</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Expand All feature for Files tab</td>
+<td></td>
+<td>36</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateFileSize()'><b>ValidateFileSize</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Color Coding of files a per size in Files tab</td>
+<td></td>
+<td>16</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.POSTest.ValidateGetMenuItems()'><b>ValidateGetMenuItems</b><br>Test class: ztp.qa.testcases.POSTest<br>Test method: Checks GetMenuItems paramters</td>
+<td></td>
+<td>2</td>
+<td>ztp.qa.testcases.POSTest@3012646b</td></tr>
+<tr>
+<td title='ztp.qa.testcases.POSTest.ValidateGetRVCList()'><b>ValidateGetRVCList</b><br>Test class: ztp.qa.testcases.POSTest<br>Test method: Checks GetRVCList parameters</td>
+<td></td>
+<td>2</td>
+<td>ztp.qa.testcases.POSTest@3012646b</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateItemsPerPageFunctionality()'><b>ValidateItemsPerPageFunctionality</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Items per Page displayed: 5,10,25 and 100</td>
+<td></td>
+<td>24</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateNextPage()'><b>ValidateNextPage</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Next Page Functionality</td>
+<td></td>
+<td>10</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.POSTest.ValidatePOSInformation()'><b>ValidatePOSInformation</b><br>Test class: ztp.qa.testcases.POSTest<br>Test method: Checks POS information</td>
+<td></td>
+<td>2</td>
+<td>ztp.qa.testcases.POSTest@3012646b</td></tr>
+<tr>
+<td title='ztp.qa.testcases.POSTest.ValidatePluginVersion()'><b>ValidatePluginVersion</b><br>Test class: ztp.qa.testcases.POSTest<br>Test method: Checks Plugin Version</td>
+<td></td>
+<td>2</td>
+<td>ztp.qa.testcases.POSTest@3012646b</td></tr>
+<tr>
+<td title='ztp.qa.testcases.POSTest.ValidatePosFeatures()'><b>ValidatePosFeatures</b><br>Test class: ztp.qa.testcases.POSTest<br>Test method: Checks Plugin Features</td>
+<td></td>
+<td>5</td>
+<td>ztp.qa.testcases.POSTest@3012646b</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidatePreviousPage()'><b>ValidatePreviousPage</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Previous Page Functionality</td>
+<td></td>
+<td>8</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.QRCodeTest.ValidatePrintQRImage()'><b>ValidatePrintQRImage</b><br>Test class: ztp.qa.testcases.QRCodeTest<br>Test method: QR Code Print</td>
+<td></td>
+<td>1</td>
+<td>ztp.qa.testcases.QRCodeTest@52719fb6</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateRefreshProcesses()'><b>ValidateRefreshProcesses</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Refresh Processes Functionality</td>
+<td></td>
+<td>15</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateRefreshServices()'><b>ValidateRefreshServices</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Refresh Services Functionality</td>
+<td></td>
+<td>57</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateRestartService()'><b>ValidateRestartService</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Checks Restart functionality works for service</td>
+<td></td>
+<td>5</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSearchZioskProcesses()'><b>ValidateSearchZioskProcesses</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: 4 Ziosk Processes on Watcher Client page</td>
+<td></td>
+<td>11</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSearchZioskServices()'><b>ValidateSearchZioskServices</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: 4 Ziosk Service loaded on Watcher Client page</td>
+<td></td>
+<td>11</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSortByDisplayName()'><b>ValidateSortByDisplayName</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Sort by Display Name on Service Tab</td>
+<td></td>
+<td>61</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSortByProcessName()'><b>ValidateSortByProcessName</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Sort by Process name on Process tab</td>
+<td></td>
+<td>35</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSortByServiceName()'><b>ValidateSortByServiceName</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Sort by Service Name on Services Tab</td>
+<td></td>
+<td>78</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSortByStatus()'><b>ValidateSortByStatus</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Sort by Status on services tab</td>
+<td></td>
+<td>67</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateStartToStopService()'><b>ValidateStartToStopService</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Checks Start to Stop works for service</td>
+<td></td>
+<td>5</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateStopToStartService()'><b>ValidateStopToStartService</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Checks Stop to start works for service</td>
+<td></td>
+<td>5</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSwitchBetPageswithTool()'><b>ValidateSwitchBetPageswithTool</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Switch between pages using Tool dropdown</td>
+<td></td>
+<td>17</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSwitchStore()'><b>ValidateSwitchStore</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Switching between stores from top page dropdown</td>
+<td></td>
+<td>3</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateSwitchingBetTabs()'><b>ValidateSwitchingBetTabs</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Switching between Services, Processes and Files tabs</td>
+<td></td>
+<td>8</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateTotalNoOfServices()'><b>ValidateTotalNoOfServices</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Checks Total number of dislayed services</td>
+<td></td>
+<td>29</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+<tr>
+<td title='ztp.qa.testcases.WatcherTest.ValidateZOOBServiceStopStartDisabled()'><b>ValidateZOOBServiceStopStartDisabled</b><br>Test class: ztp.qa.testcases.WatcherTest<br>Test method: Stop and start button is disabled for Ziosk Online Ordering Bridge Service</td>
+<td></td>
+<td>7</td>
+<td>ztp.qa.testcases.WatcherTest@6221a451</td></tr>
+</table><p>
+</body>
+</html>
